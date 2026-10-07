@@ -1,0 +1,4 @@
+# Large or regenerable files: recreate with generate_data.py and pipeline.py
+data/raw/
+data/output/final_contact_file.csv
+__pycache__/
