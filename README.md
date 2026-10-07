@@ -5,13 +5,21 @@ to three vendors, validate what comes back, combine vendors with a priority rule
 and measure match rates, vendor agreement, and downstream outcomes.
 All data is synthetic; vendor names are generic.
 
+## Run it in your browser (no setup)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/vcelka1234/vendor-data-append-validation/blob/main/vendor_append_walkthrough.ipynb)
+
+Click the badge to open the step-by-step walkthrough notebook in Google Colab, then choose
+**Runtime → Run all**. It runs in about a minute and shows every validation check, the coverage
+waterfall, segment match rates, vendor agreement, and call outcomes, with charts.
+You can also click `vendor_append_walkthrough.ipynb` in the file list above to read it, with results, right here on GitHub.
+
 ## Why this project
 It mirrors a process I ran every year at Nielsen (phone appends from three vendors
 for ~40,000 survey households) and applies the same approach to the vendor
 audience-data work done by media/marketing data teams: outbound feeds, return-file
 validation, match rates, and vendor evaluation.
 
-## How to run
+## How to run the scripts on your own computer
 ```
 pip install -r requirements.txt
 python generate_data.py   # writes data/raw/
