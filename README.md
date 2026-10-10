@@ -13,6 +13,12 @@ Click the badge to open the step-by-step walkthrough notebook in Google Colab, t
 waterfall, segment match rates, vendor agreement, and call outcomes, with charts.
 You can also click `vendor_append_walkthrough.ipynb` in the file list above to read it, with results, right here on GitHub.
 
+## Interactive dashboards
+Two Tableau dashboards built from the output tables:
+**Feed Health** (validation results) and **Vendor Performance** (coverage, gaps and accuracy).
+
+[View on Tableau Public](https://public.tableau.com/views/VendorDataAppendValidationCoverage/Dashboard_VendorValid?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Why this project
 It mirrors a process I ran every year at Nielsen (phone appends from three vendors
 for ~40,000 survey households) and applies the same approach to the vendor
